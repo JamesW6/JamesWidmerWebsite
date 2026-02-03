@@ -1,0 +1,49 @@
+/*Everything properties*/
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 12px;
+}
+
+body {
+    min-height: 100vh;
+    background: linear-gradient(#fc81ec,#fac8f3);
+}
+
+#container {
+    font-family: "DejaVu Sans", sans-serif;
+}
+#header {
+    font-size: 1.25rem;
+    position: absolute;
+    top: 25%;
+    left: 50%;
+    margin: 0;
+    padding: -1rem;
+    transform: translate(-50%, -50%);
+}
+
+#mainButton:hover  {
+    cursor: pointer;
+    background-color: #ac81ec;
+    /*border-color: ;*/
+
+}
+#mainButton{
+
+    font-size: 2rem;
+    position: absolute;
+    top: 40%;
+    left: 50%;
+    margin: 0;
+    padding: 1rem;
+    transform: translate(-50%, -50%);
+    border: 2px solid #2b2929;
+    border-radius: 25px;
+    background-color: #8c29cf;
+
+
+
+
+}
