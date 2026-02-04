@@ -1,0 +1,13 @@
+* {
+    box-sizing: border-box;
+}
+html, body {
+    font-size: 12px;
+}
+#cards{
+    display: flex;
+    flex-wrap: wrap;
+    flex: 1;
+    padding: 2rem;
+    background: gray;
+}

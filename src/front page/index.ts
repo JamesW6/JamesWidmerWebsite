@@ -1,6 +1,5 @@
 function listenerFunction(this: HTMLElement, event: Event) {
-    alert("i hate you");
-    console.log("Button clicked!");
+    window.location.replace('../projects/projects.html');
 }
 export function initFunction() {
     console.log("i hate you");
