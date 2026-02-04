@@ -12,36 +12,28 @@ body {
 }
 
 #container {
+    display: grid;
+    place-items: center;
+    height: 100vh;
     font-family: "DejaVu Sans", sans-serif;
+
 }
 #header {
     font-size: 1.25rem;
-    position: absolute;
-    top: 25%;
-    left: 50%;
-    margin: 0;
-    padding: -1rem;
-    transform: translate(-50%, -50%);
+
 }
 
 #mainButton:hover  {
     cursor: pointer;
     background-color: #ac81ec;
-    /*border-color: ;*/
-
 }
 #mainButton{
-
-    font-size: 2rem;
-    position: absolute;
-    top: 40%;
-    left: 50%;
-    margin: 0;
-    padding: 1rem;
-    transform: translate(-50%, -50%);
+    padding: 1rem 1.5rem;
+    font-size: 2.5rem;
     border: 2px solid #2b2929;
-    border-radius: 25px;
+    border-radius: 5px;
     background-color: #8c29cf;
+    transform: translate(0, -10rem);
 
 
 
